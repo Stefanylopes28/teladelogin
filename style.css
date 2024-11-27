@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  font-family: "Play", sans-serif;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+header {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 300px;
+  padding: 30px;
+  margin-bottom: 40px;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 50px;
+  box-shadow: 0px 4px 8px #abdefa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 28px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.input-email,
+.input-password {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #a87b05;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.input-email:hover,
+.input-password:hover {
+  transform: scale(0.95);
+}
+
+.input-remember {
+  align-self: flex-start;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+button {
+  font-family: "Parkinsans", sans-serif;
+}
+
+.btn-login,
+.btn-forgot-password {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 2px solid #a87b05;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-google,
+.btn-linkedin,
+.btn-facebook {
+  margin: 10px;
+  border: 2px solid blue;
+  background-color: white;
+  color: red;
+  padding: 5px 15px;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn-linkedin {
+  background-color: blue;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: blue;
+  color: white;
+  padding: 5px 17px;
+}
+
+.login-box > * {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer {
+  width: 100%;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  bottom: 0;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+  </head>
+  <body
+    style="
+      background-image: url('https://e1.pxfuel.com/desktop-wallpaper/646/773/desktop-wallpaper-login-page-login.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      height: 100vh;
+    "
+  >
+    <header>
+      <img
+        src="https://cdn-icons-png.freepik.com/256/5087/5087579.png"
+        alt="Ícone de login"
+        class="login-icon"
+      />
+      <main>
+        <section class="login-box">
+          <h1>Seja bem vindo!</h1>
+          <h2>Login</h2>
+          <form action="#" method="POST" novalidate>
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="input-email"
+              placeholder="nome@email.com"
+              required
+              aria-required="true"
+            />
+
+            <label for="password">Senha</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              class="input-password"
+              placeholder="XXXXXXXX"
+              required
+              aria-required="true"
+            />
+
+            <label>
+              <input type="checkbox" id="remember" name="remember" />
+              Lembrar meus dados
+            </label>
+
+            <button
+              type="button"
+              class="btn-login"
+              onclick="window.location.href='https://www.linkedin.com/in/st%C3%A9fany-lopes-27b484293/'"
+            >
+              Entrar
+            </button>
+            <button
+              type="button"
+              class="btn-forgot-password"
+              onclick="window.location.href='https://support.google.com/accounts/answer/7682439?hl=pt-BR'"
+            >
+              Trocar Senha
+            </button>
+
+            <p>Não tem uma conta? <a href="#">Inscreva-se</a></p>
+          </form>
+
+          <nav class="social-login">
+            <p>Ou entre com:</p>
+            <div class="social-buttons">
+              <a
+                href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1"
+                target="_blank"
+              >
+                <button type="button" class="btn-google">G</button>
+              </a>
+
+              <a
+                href="https://br.linkedin.com/?original_referer=https%3A%2F%2Fbr.search.yahoo.com%2F"
+                target="_blank"
+              >
+                <button type="button" class="btn-linkedin">In</button>
+              </a>
+
+              <a href="https://pt-pt.facebook.com/login/" target="_blank">
+                <button type="button" class="btn-facebook">f</button>
+              </a>
+            </div>
+          </nav>
+        </section>
+      </main>
+    </header>
+    <footer>
+      <p>&copy; 2024 Stéfany Herculano Lopes. Todos os direitos reservados.</p>
+      <p>Feito por Stéfany Herculano Lopes</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
